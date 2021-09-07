@@ -5,7 +5,12 @@ body{
 .intro-text{
     font-size: 48px;
 }
+/* Horizontal line style */
 hr {
     border: 0;
     border-top: 1px solid gray;
-  }
+}
+/* Warning text style */
+.warning{
+    display: none;
+}

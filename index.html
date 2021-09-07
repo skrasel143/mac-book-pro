@@ -27,7 +27,7 @@
                 <div id="memory-event" class="mt-5 pt-3">
                     <h4>Memory</h4>
                     <div class="btn btn-outline-dark mt-3">8GB unified memory</div>
-                    <div class="btn btn-outline-dark mt-3">16GB unified memory</div>
+                    <div id="gb" class="btn btn-outline-dark mt-3">16GB unified memory</div>
                 </div>
                 <div id="storage-event" class="mt-5 pt-3">
                     <h4>Storage</h4>
@@ -66,8 +66,9 @@
                 </div>
                 <div class="input-group d-block mt-3">
                     <p>Add Promo code</p>
-                    <input class="p-1 border-1 rounded" type="text">
-                    <button type="submit" class="btn btn-danger rounded">Apply</button>
+                    <p id="message" class="warning text-danger fw-bolder">Please input a correct promoCode</p>
+                    <input id="code-input" class="p-1 border-1 rounded" type="text" placeholder="Enter promo code">
+                    <button id="apply-btn" type="submit" class="btn btn-danger rounded">Apply</button>
                 </div>
             </div>    
         </div>
